@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-// import Particles from 'react-particles-js';
-// import ParticlesBg from 'particles-bg';
 import BgParticles from './components/BgParticles/BgParticles';
-// import Clarifai from 'clarifai';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import Navigation from './components/Navigation/Navigation';
 import Signin from './components/Signin/Signin';
@@ -11,24 +8,6 @@ import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import Rank from './components/Rank/Rank';
 import './App.css';
-
-//You must add your own API key here from Clarifai.
-// const app = new Clarifai.App({
-//  apiKey: 'ff7d30fef00c430fa2ebe1bbd78f38ce'
-// });
-
-// No Longer need this. Updated to particles-bg
-// const particlesOptions = {
-//   particles: {
-//     number: {
-//       value: 30,
-//       density: {
-//         enable: true,
-//         value_area: 800
-//       }
-//     }
-//   }
-// }
 
 const initialState = {
       input: '',
@@ -44,7 +23,6 @@ const initialState = {
         joined: ''
       }
   }
-
 
 class App extends Component {
   constructor() {
@@ -88,13 +66,6 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
-   
-    // HEADS UP! Sometimes the Clarifai Models can be down or not working as they are constantly getting updated.
-    // A good way to check if the model you are using is up, is to check them on the clarifai website. For example,
-    // for the Face Detect Mode: https://www.clarifai.com/models/face-detection
-    // If that isn't working, then that means you will have to wait until their servers are back up. 
-
-    // app.models.predict('face-detection', this.state.input)
 
     fetch('http://localhost:3001/imageurl', {
       method: 'post',
@@ -105,7 +76,7 @@ class App extends Component {
       })
       .then(response => response.json())
       .then(response => {
-        console.log('hi', response)
+        console.log('hi, hola', response)
         if (response) {
           fetch('http://localhost:3001/image', {
             method: 'put',
