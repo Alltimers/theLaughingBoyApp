@@ -7,6 +7,7 @@ import Register from './components/Register/Register';
 import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import Rank from './components/Rank/Rank';
+import Footer from './components/Footer/footer';
 import './App.css';
 
 const initialState = {
@@ -110,7 +111,6 @@ class App extends Component {
     return (
       <div className="App">
         <BgParticles />
-        {/*<ParticlesBg type="cobweb" bg={true} />*/}
         <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
         { route === 'home'
           ? <div>
@@ -124,6 +124,7 @@ class App extends Component {
                 onButtonSubmit={this.onButtonSubmit}
               />
               <FaceRecognition boxes={boxes} imageUrl={imageUrl} />
+              <Footer />
             </div>
           : (
              route === 'signin'

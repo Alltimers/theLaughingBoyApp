@@ -45,6 +45,7 @@ class Register extends React.Component {
   render() {
     const { onRouteChange } = this.props;
     return (
+      <div>
       <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
         <main className="pa4 white-80">
           <div className="measure">
@@ -110,6 +111,12 @@ class Register extends React.Component {
           </div>
         </main>
       </article>
+              <div className='center v-btm white-80'>
+          <footer>
+          <p>Made with ❤ by Pablo</p>
+          </footer>
+        </div>
+      </div>
     );
   }
 }
