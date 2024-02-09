@@ -45,11 +45,11 @@ class Signin extends React.Component {
           <div className="measure">
 
             <div action="" className="log-in" autoComplete="off">
-              <legend className="f1 fw6 ph0 mh0 center">Welcome</legend>
-              <h4>
-                I'm <span>BRAINO</span>, an online brain.
+              <legend className="intro ph0 mh0 center">Welcome</legend>
+              <h4 className="title">
+                to The Laughing Boy App.
               </h4>
-              <p>Please <span>Log in</span> to submit images for face detection.</p>
+              <p>Please <span>Log in</span> to hack images with my logo in their faces.</p>
               <div className="floating-label">
                 <input
                   placeholder="Email"
@@ -128,7 +128,7 @@ class Signin extends React.Component {
                 </button>
                 <a
                   onClick={() => onRouteChange('register')}
-                  className="discrete f6 link hover-red white-80 pointer"
+                  className="discrete f6 link white-80 pointer"
                   target="_blank"
                 >
                   Sign Up
@@ -140,7 +140,13 @@ class Signin extends React.Component {
       </article>
         <div className='center v-btm white-80'>
           <footer>
-          <p>Made with ❤ by Pablo</p>
+          <p>Designed and developed with ❤ by Pablo Osti.<br />
+          <span className='footer'>Inspired by the <a href="https://en.wikipedia.org/wiki/List_of_Ghost_in_the_Shell_characters#Laughing_Man">Laughing Man
+          </a> incident in Ghost in the Shell SAC,
+          and based on the <a href="https://en.wikipedia.org/wiki/File:Laughing_Man.png">logo
+          </a> designed by Paul Nicholson.
+          </span>
+          </p>
           </footer>
         </div>
       </div>

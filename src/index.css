@@ -11,17 +11,36 @@
     src: local('NostromoLight'), url('./Fonts/NostromoLight.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'SourceCodePro-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SourceCodePro-Regular'), url('./Fonts/SourceCodePro-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SourceCodePro-Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SourceCodePro-Medium'), url('./Fonts/SourceCodePro-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Raptor_reg';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raptor_reg'), url('./Fonts/Raptor_reg.woff') format('woff');
+}
+
 body {
   margin: 0;
   padding: 0;
-/*  font-family: "Courier New", Courier, monospace;*/
-  font-family: 'NostromoLight';
-  background: #231F20; /* w3c */
-  background-image: url('./Background/brain1.png');
+  font-family: Raptor_reg;
+  background: #121214;
+  background-image: url('./Background/outlinebig.png');
   background-position: center 1rem;
   background-repeat: repeat-y;
-  background-size: 65%;
-  
+  background-size: 70%;
 }
 
 button {

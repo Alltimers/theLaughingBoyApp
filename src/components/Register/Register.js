@@ -53,7 +53,7 @@ class Register extends React.Component {
              <div action="" className="log-in" autoComplete="off">
                 <legend className="f1 fw6 ph0 mh0 center">Sign Up</legend>
                 <h4>
-                  To <span>BRAINO</span>, the online brain.
+                  to start hacking faces!
                 </h4>
                 <p>Please <span>create</span> your personal account</p>
                 <div className="floating-label-signup">
@@ -101,7 +101,7 @@ class Register extends React.Component {
                   </button>
                   <a
                     onClick={() => onRouteChange('signin')}
-                    className="discrete-signup f6 link hover-red white-80 center pointer"
+                    className="discrete-signup f6 link white-80 center pointer"
                     target="_blank"
                   >
                     I've got an account
@@ -113,7 +113,13 @@ class Register extends React.Component {
       </article>
               <div className='center v-btm white-80'>
           <footer>
-          <p>Made with ❤ by Pablo</p>
+          <p>Designed and developed with ❤ by Pablo Osti.<br />
+          <span className='footer'>Inspired by the <a href="https://en.wikipedia.org/wiki/List_of_Ghost_in_the_Shell_characters#Laughing_Man">Laughing Man
+          </a> incident in Ghost in the Shell SAC,
+          and based on the <a href="https://en.wikipedia.org/wiki/File:Laughing_Man.png">logo
+          </a> designed by Paul Nicholson.
+          </span>
+          </p>
           </footer>
         </div>
       </div>

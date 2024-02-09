@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Raptor_reg';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raptor_reg'), url('./Raptor_reg.woff') format('woff');
+}
+
+.nav {
+	font-family: 'Raptor_reg' ;
+}
+
+.nav:hover {
+	color: #3737FF;
+}
+

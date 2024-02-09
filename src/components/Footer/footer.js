@@ -4,7 +4,8 @@ const Footer = () => {
   return (
     <div className='center v-btm white-80'>
       <footer>
-  		<p>Made with ❤ by Pablo</p>
+          <p>Designed and developed with ❤ by Pablo Osti.
+          </p>
 	  </footer>
     </div>
   );

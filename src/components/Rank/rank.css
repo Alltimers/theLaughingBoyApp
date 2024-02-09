@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Raptor_it';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raptor_it'), url('./Raptor_it.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Raptor_reg';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raptor_regRaptor_reg'), url('./Raptor_reg.woff') format('woff');
+}
+
+.quote {
+	color: #FEFEFE;
+	font-family: Raptor_reg;
+}
+
+.author {
+    font-weight: normal;
+    font-size: 10px;
+	font-family: Raptor_it;
+    color: #FEFEFE;
+}
+
+.counter {
+    color: #FEFEFE;
+	font-family: Raptor_reg;
+}
+
+.entry {
+    color: #FEFEFE;
+}

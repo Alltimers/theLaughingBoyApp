@@ -5,7 +5,6 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
 // import { loadBasic } from "@tsparticles/basic"; // if you are going to use `loadBasic`, install the "@tsparticles/basic" package too.
 import './BgParticles.css';
-
 const BgParticles = () => {
   const [init, setInit] = useState(false);
 
@@ -62,7 +61,7 @@ const BgParticles = () => {
           value: "#FEFEFE",
         },
         links: {
-          color: "#C92727",
+          color: "#3737FF",
           distance: 150,
           enable: true,
           opacity: 0.7,
@@ -87,11 +86,21 @@ const BgParticles = () => {
         opacity: {
           value: 0.5,
         },
+        // shape: {
+        //   type: "circle",
+        // },
         shape: {
-          type: "circle",
-        },
+        type: "images",
+        options: {
+          "images": {
+            "src": "https://github.com/Alltimers/sourceimgs/blob/main/logo_solo.png?raw=true",
+            "width": 12.5,
+            "height": 10,
+          }
+        }
+      },
         size: {
-          value: { min: 1, max: 5 },
+          value: { min: 1, max: 30 },
         },
       },
       detectRetina: true,
