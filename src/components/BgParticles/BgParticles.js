@@ -84,11 +84,8 @@ const BgParticles = () => {
           value: 120,
         },
         opacity: {
-          value: 0.5,
+          value: 0.7,
         },
-        // shape: {
-        //   type: "circle",
-        // },
         shape: {
         type: "images",
         options: {

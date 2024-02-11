@@ -15,7 +15,7 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
           <button
             className='w-30 grow hover-black f5 link ph3 pv2 dib moon-gray'
             onClick={onButtonSubmit}
-          >Detect</button>
+          >Carry on!</button>
         </div>
       </div>
     </div>
