@@ -14,13 +14,13 @@
 
 .quote {
 	color: #FEFEFE;
-	font-family: Raptor_reg;
+	font-family: Raptor_it;
 }
 
 .author {
     font-weight: normal;
     font-size: 10px;
-	font-family: Raptor_it;
+	font-family: Raptor_reg;
     color: #FEFEFE;
 }
 
