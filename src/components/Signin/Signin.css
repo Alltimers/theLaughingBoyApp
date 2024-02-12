@@ -13,11 +13,11 @@
 }
 
 legend{
-  font-family: 'Raptor_bold';
+  font-family: 'Raptor_bold', sans-serif;
 }
 
 h4 {
-  font-family: 'Raptor_reg';
+  font-family: 'Raptor_reg', sans-serif;
   margin-top: 10px;
   margin-bottom: 30px;
   font-weight: normal;

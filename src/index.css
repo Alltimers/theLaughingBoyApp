@@ -35,7 +35,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Raptor_reg;
+  font-family: Raptor_reg, sans-serif;
   background: #121214;
   background-image: url('./Background/outlineBigThin.png');
   background-position: center;
