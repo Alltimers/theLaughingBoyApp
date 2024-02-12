@@ -1,9 +1,9 @@
 
 .hidden {
   background: url('./bg6.gif');
-  background-position: center;
+  background-position: -14rem;
   background-repeat: repeat;
-  background-size: 40%;
+  background-size: 70%;
   position: fixed;
   top: 0;
   bottom: 0;
