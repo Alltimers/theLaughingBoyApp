@@ -12,7 +12,7 @@
     src: local('Raptor_regRaptor_reg'), url('./Raptor_reg.woff') format('woff');
 }
 
-.quote {
+.quotes {
 	color: #FEFEFE;
 	font-family: Raptor_it, sans-serif;
 }
