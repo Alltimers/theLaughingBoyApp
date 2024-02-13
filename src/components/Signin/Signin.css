@@ -40,7 +40,7 @@ main {
 }
 
 span {
-  font-weight: bold;
+  font-family: Raptor_bold;
 }
 
 p {
@@ -110,6 +110,7 @@ input:focus {
 }
 
 .footer {
+  font-family: Raptor_reg;
   font-weight: normal;
   font-size: 10px;
 }

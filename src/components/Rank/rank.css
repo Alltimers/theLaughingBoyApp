@@ -9,11 +9,18 @@
     font-family: 'Raptor_reg';
     font-style: normal;
     font-weight: normal;
-    src: local('Raptor_regRaptor_reg'), url('./Raptor_reg.woff') format('woff');
+    src: local('Raptor_reg'), url('./Raptor_reg.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Raptor_bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raptor_bold'), url('./Raptor_bold.woff') format('woff');
 }
 
 .name {
-    font-weight: normal;
+    font-family: Raptor_bold, sans-serif;
 }
 
 .quotes {

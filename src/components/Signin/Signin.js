@@ -49,7 +49,7 @@ class Signin extends React.Component {
               <h4 className="title">
                 to The Laughing Boy App.
               </h4>
-              <p>Please <span>Log in</span> to hack images with my logo in their faces.</p>
+              <p>Please <span>Log in</span> to hack faces on images via URL with the <span>Laughing Boy</span> logo.</p>
               <div className="floating-label">
                 <input
                   placeholder="Email"
