@@ -1,6 +1,5 @@
 import React from 'react';
 import rank from './rank.css';
-
 const Rank = ({ name, entries }) => {
   return (
     <div className="center">
@@ -11,7 +10,7 @@ const Rank = ({ name, entries }) => {
         <span className='author'> Holden Caulfield in The catcher in the rye, by J.D. Salinger.</span>
       </p>
         <div className='counter f3'>
-          {`Hi ${name}, your current hack count is:`}
+          <h4 className='margin'>Hi <span className='ttc name'>{`${name}`}</span>, your current hack count is:</h4>
         </div>
         <div className='entry f1'>
           {entries}

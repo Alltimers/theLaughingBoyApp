@@ -12,6 +12,10 @@
     src: local('Raptor_regRaptor_reg'), url('./Raptor_reg.woff') format('woff');
 }
 
+.name {
+    font-weight: normal;
+}
+
 .quotes {
 	color: #FEFEFE;
 	font-family: Raptor_it, sans-serif;
@@ -22,6 +26,10 @@
     font-size: 10px;
 	font-family: Raptor_reg, sans-serif;
     color: #FEFEFE;
+}
+
+.margin {
+    margin-bottom: 10px;
 }
 
 .counter {
