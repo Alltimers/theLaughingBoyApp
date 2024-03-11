@@ -113,7 +113,7 @@ class Register extends React.Component {
       </article>
               <div className='center v-btm white-80'>
           <footer>
-          <p>Designed and developed with ❤ by Pablo Osti.<br />
+          <p>Designed and developed with ❤ by <a href="https://www.behance.net/pabloosti">Pablo Osti.</a><br />
           <span className='footer'>Inspired by the <a href="https://en.wikipedia.org/wiki/List_of_Ghost_in_the_Shell_characters#Laughing_Man">Laughing Man
           </a> incident in Ghost in the Shell SAC,
           and based on the <a href="https://en.wikipedia.org/wiki/File:Laughing_Man.png">logo
